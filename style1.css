@@ -1,0 +1,53 @@
+.card {
+        background-image: url('./img/mac.png');
+        height:100vh;
+    min-height:  300px;
+   background: no-repeat;
+   background-size: cover;
+        
+    }
+    
+    h1 {
+        font-size: 45px;
+        font-family: "Bree Serif";
+        font-weight: bold;
+        color: black;
+    }
+    
+    .matter {
+        font-size: 32px;
+        font-family: "Bree Serif";
+        color: black;
+    }
+    
+    .button {
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+        border-width: 0px;
+        background-color: #03174c;
+        color: white;
+    }
+    
+    .pla {
+        height: 50px;
+        width: 250px;
+        border-radius: 10px;
+        border-width: 0px;
+        font-size: 25px;
+        margin: 10px;
+    }
+    
+    .err {
+        font-size: 22px;
+        font-family: "Bree Serif";
+        color: black;
+    }
+    
+
+    .navbar-brand{
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 700px;
+    }
+    

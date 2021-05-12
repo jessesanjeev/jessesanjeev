@@ -1,0 +1,92 @@
+.navbar-brand{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700px;
+}
+.nav-link{
+    color:thistle;
+}
+
+.nav-link:hover{
+    background-color: white;
+}
+
+
+.carousel-item{
+    height:100vh;
+    min-height:  300px;
+    -webkit-background-size:no-repeat scroll center scroll;
+   background: no-repeat;
+   background-size: cover;
+    
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    background:#000;
+}
+.carousel-caption{
+    bottom:180px;
+    padding-left:100px;
+    padding-right: 100px;
+}
+.carousel-caption h4{
+    font-size: 100px;
+}
+
+.carousel-caption p{
+    font-size: 18px;
+    top:2rem;
+}
+
+
+.overlay-image
+{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    top:0;
+    background-position:center;
+    background-size: cover;
+    background-color: black;
+
+}
+.container{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.container h2{
+	font-size: 80px;
+	color:black;
+	margin:0 0 10px;
+	opacity: 0;
+}
+.container p{
+	font-size: 30px;
+	margin:0;
+	color:black;
+	opacity:0;
+}
+.col{
+    position: absolute;
+    
+}
+
+
+.loginbody{
+    height:100vh;
+    min-height:  300px;
+   background: no-repeat;
+   background-size: cover;
+   opacity: 0.7;
+   background-color: black;
+
+}
