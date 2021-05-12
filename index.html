@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <title>Bootstrap 5 Carousel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top  " style="background-color:lightsteelblue;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">QR-Scanner</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link " href="contact.html" >Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+   <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-bs-touch="false" data-bs-interval="false" >
+     <ol class="carousel-indicators">
+       <li data-target="#myCarousel" data-slide-to="0"class="active" > </li>
+       <li data-target="#myCarousel" data-slide-to="1" ></li>
+       <li data-target="#myCarousel" data-slide-to="2"> </li>
+     </ol>
+     <div class="carousel-inner">
+
+       <div class="carousel-item active">
+        <div class="overlay-image">
+          <img src="img/slide-1 .jpg" class="d-block w-100" alt="...">
+        </div>
+         <div class="carousel-caption d-none d-md-block">
+          <h4>Welcome </h4>
+          <p>Scan to login</p>
+          <a href="loginpage.html" class="btn btn-lg btn-primary">Enter for scanning</a>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <div class="overlay-image">
+          <img src="img/slide-2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+           <h4>Welcome</h4>
+           <p>Scan to login</p>
+           <a href="loginpage.html"class="btn btn-lg btn-primary">Enter for scanning</a>
+           </div>
+         </div>
+
+         <div class="carousel-item ">
+          <div class="overlay-image">
+          <img src="img/slide-3.jpg" class="w-100 " alt="...">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+           <h4>Welcome</h4>
+           <p>Scan to login</p>
+           <a href="loginpage.html"class="btn btn-lg btn-primary">Enter for scanning</a>
+          
+           </div>
+         </div>
+
+     </div>
+     <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+      </a>
+      <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+       </a>
+  </div>
+ /ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
